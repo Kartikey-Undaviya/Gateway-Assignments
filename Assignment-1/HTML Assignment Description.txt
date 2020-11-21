@@ -1,0 +1,1 @@
+It contains 5 HTML web pages and others are images for HTML web pages. Out of five, "Home.html" is the main HTML web page.
