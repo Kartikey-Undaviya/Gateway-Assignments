@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+@Html.Raw(TempData["LoginSuccessMessage"])
+
+<h2>User Details</h2>
+<hr>
+<h3>Username : @Session["Username"]</h3>
+<br>
+<h3>First Name : @Session["FirstName"]</h3>
+<br>
+<h3>Last Name : @Session["LastName"]</h3>
+<br>
+<h3>Age : @Session["Age"]</h3>
+<br>
+<h3>Gender : @Session["Gender"]</h3>
+<br>
+<h3>Email : @Session["Email"]</h3>
+<br>
+
+<h5>@Html.ActionLink("Logout", "Logout", "User")</h5>
