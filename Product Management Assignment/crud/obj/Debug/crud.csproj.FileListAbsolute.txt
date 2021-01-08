@@ -1,0 +1,329 @@
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\csc.exe
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Meet\Desktop\.net\crud\bin\crud.dll.config
+C:\Users\Meet\Desktop\.net\crud\bin\crud.dll
+C:\Users\Meet\Desktop\.net\crud\bin\crud.pdb
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\csc.exe.config
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\csc.rsp
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\csi.exe
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\csi.exe.config
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\csi.rsp
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\System.AppContext.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\System.Console.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\System.IO.Compression.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\System.Net.Http.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\System.ValueTuple.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\vbc.exe
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\vbc.exe.config
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\vbc.rsp
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\VBCSCompiler.exe
+C:\Users\Meet\Desktop\.net\crud\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Meet\Desktop\.net\crud\bin\EntityFramework.dll
+C:\Users\Meet\Desktop\.net\crud\bin\EntityFramework.SqlServer.dll
+C:\Users\Meet\Desktop\.net\crud\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Meet\Desktop\.net\crud\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Meet\Desktop\.net\crud\bin\System.Web.Helpers.dll
+C:\Users\Meet\Desktop\.net\crud\bin\System.Web.Mvc.dll
+C:\Users\Meet\Desktop\.net\crud\bin\System.Web.Razor.dll
+C:\Users\Meet\Desktop\.net\crud\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Meet\Desktop\.net\crud\bin\System.Web.Webpages.dll
+C:\Users\Meet\Desktop\.net\crud\bin\System.Web.Webpages.Razor.dll
+C:\Users\Meet\Desktop\.net\crud\bin\EntityFramework.xml
+C:\Users\Meet\Desktop\.net\crud\bin\EntityFramework.SqlServer.xml
+C:\Users\Meet\Desktop\.net\crud\bin\System.Web.Razor.xml
+C:\Users\Meet\Desktop\.net\crud\bin\System.Web.Webpages.xml
+C:\Users\Meet\Desktop\.net\crud\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Meet\Desktop\.net\crud\bin\System.Web.Webpages.Razor.xml
+C:\Users\Meet\Desktop\.net\crud\bin\System.Web.Helpers.xml
+C:\Users\Meet\Desktop\.net\crud\bin\System.Web.Mvc.xml
+C:\Users\Meet\Desktop\.net\crud\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Meet\Desktop\.net\crud\obj\Debug\crud.csproj.CoreCompileInputs.cache
+C:\Users\Meet\Desktop\.net\crud\obj\Debug\crud.csproj.CopyComplete
+C:\Users\Meet\Desktop\.net\crud\obj\Debug\crud.dll
+C:\Users\Meet\Desktop\.net\crud\obj\Debug\crud.pdb
+C:\Users\Meet\Desktop\.net\crud\obj\Debug\crud.csprojAssemblyReference.cache
+C:\Users\Meet\Desktop\.net\crud\bin\Aspose.Slides.dll
+C:\Users\Meet\Desktop\.net\crud\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Meet\Desktop\.net\crud\bin\Newtonsoft.Json.dll
+C:\Users\Meet\Desktop\.net\crud\bin\SmartFormat.dll
+C:\Users\Meet\Desktop\.net\crud\bin\System.Buffers.dll
+C:\Users\Meet\Desktop\.net\crud\bin\System.Memory.dll
+C:\Users\Meet\Desktop\.net\crud\bin\System.Numerics.Vectors.dll
+C:\Users\Meet\Desktop\.net\crud\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Meet\Desktop\.net\crud\bin\System.Text.Encodings.Web.dll
+C:\Users\Meet\Desktop\.net\crud\bin\System.Text.Json.dll
+C:\Users\Meet\Desktop\.net\crud\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Meet\Desktop\.net\crud\bin\System.ValueTuple.dll
+C:\Users\Meet\Desktop\.net\crud\bin\Aspose.Slides.xml
+C:\Users\Meet\Desktop\.net\crud\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Meet\Desktop\.net\crud\bin\Newtonsoft.Json.xml
+C:\Users\Meet\Desktop\.net\crud\bin\SmartFormat.pdb
+C:\Users\Meet\Desktop\.net\crud\bin\SmartFormat.xml
+C:\Users\Meet\Desktop\.net\crud\bin\System.Buffers.xml
+C:\Users\Meet\Desktop\.net\crud\bin\System.Memory.xml
+C:\Users\Meet\Desktop\.net\crud\bin\System.Numerics.Vectors.xml
+C:\Users\Meet\Desktop\.net\crud\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Meet\Desktop\.net\crud\bin\System.Text.Encodings.Web.xml
+C:\Users\Meet\Desktop\.net\crud\bin\System.Text.Json.xml
+C:\Users\Meet\Desktop\.net\crud\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Meet\Desktop\.net\crud\bin\System.ValueTuple.xml
+C:\Users\Meet\Desktop\.net\crud\bin\PagedList.dll
+C:\Users\Meet\Desktop\.net\crud\bin\PagedList.Mvc.dll
+C:\Users\Meet\Desktop\.net\crud\bin\PagedList.xml
+C:\Users\Meet\Desktop\.net\crud\bin\PagedList.Mvc.xml
+C:\Users\Meet\Desktop\.net\crud\bin\log4net.dll
+C:\Users\Meet\Desktop\.net\crud\bin\log4net.xml
+C:\Users\KARTIKEY\Desktop\crud\bin\crud.dll.config
+C:\Users\KARTIKEY\Desktop\crud\bin\crud.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\crud.pdb
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\csc.exe
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\csc.exe.config
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\csc.rsp
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\csi.exe
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\csi.exe.config
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\csi.rsp
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\System.AppContext.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\System.Console.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\System.IO.Compression.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\System.Net.Http.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\System.Net.Sockets.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\System.ValueTuple.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\System.Xml.XPath.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\vbc.exe
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\vbc.exe.config
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\vbc.rsp
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\VBCSCompiler.exe
+C:\Users\KARTIKEY\Desktop\crud\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\KARTIKEY\Desktop\crud\bin\Aspose.Slides.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\EntityFramework.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\EntityFramework.SqlServer.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\log4net.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\Newtonsoft.Json.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\PagedList.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\PagedList.Mvc.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\SmartFormat.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Buffers.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Memory.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Numerics.Vectors.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Text.Encodings.Web.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Text.Json.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\System.ValueTuple.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Web.Helpers.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Web.Mvc.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Web.Razor.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Web.Webpages.Deployment.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Web.Webpages.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Web.Webpages.Razor.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\Aspose.Slides.xml
+C:\Users\KARTIKEY\Desktop\crud\bin\EntityFramework.xml
+C:\Users\KARTIKEY\Desktop\crud\bin\EntityFramework.SqlServer.xml
+C:\Users\KARTIKEY\Desktop\crud\bin\log4net.xml
+C:\Users\KARTIKEY\Desktop\crud\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\KARTIKEY\Desktop\crud\bin\Newtonsoft.Json.xml
+C:\Users\KARTIKEY\Desktop\crud\bin\PagedList.xml
+C:\Users\KARTIKEY\Desktop\crud\bin\PagedList.Mvc.xml
+C:\Users\KARTIKEY\Desktop\crud\bin\SmartFormat.pdb
+C:\Users\KARTIKEY\Desktop\crud\bin\SmartFormat.xml
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Buffers.xml
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Memory.xml
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Numerics.Vectors.xml
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Text.Encodings.Web.xml
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Text.Json.xml
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\KARTIKEY\Desktop\crud\bin\System.ValueTuple.xml
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Web.Razor.xml
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Web.Webpages.xml
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Web.Webpages.Deployment.xml
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Web.Webpages.Razor.xml
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Web.Helpers.xml
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Web.Mvc.xml
+C:\Users\KARTIKEY\Desktop\crud\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\KARTIKEY\Desktop\crud\obj\Debug\crud.csprojAssemblyReference.cache
+C:\Users\KARTIKEY\Desktop\crud\obj\Debug\crud.csproj.CoreCompileInputs.cache
+C:\Users\KARTIKEY\Desktop\crud\obj\Debug\crud.csproj.CopyComplete
+C:\Users\KARTIKEY\Desktop\crud\obj\Debug\crud.dll
+C:\Users\KARTIKEY\Desktop\crud\obj\Debug\crud.pdb
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Diagnostics.EventLog.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Security.Principal.Windows.dll
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Diagnostics.EventLog.xml
+C:\Users\KARTIKEY\Desktop\crud\bin\System.Security.Principal.Windows.xml
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\crud.dll.config
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\crud.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\crud.pdb
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\csc.exe
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\csc.exe.config
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\csc.rsp
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\csi.exe
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\csi.exe.config
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\csi.rsp
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\System.AppContext.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\System.Console.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\System.IO.Compression.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\System.Net.Http.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\System.Net.Sockets.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\System.ValueTuple.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\System.Xml.XPath.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\vbc.exe
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\vbc.exe.config
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\vbc.rsp
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\VBCSCompiler.exe
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\Aspose.Slides.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\EntityFramework.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\EntityFramework.SqlServer.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\log4net.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\Newtonsoft.Json.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\PagedList.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\PagedList.Mvc.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\SmartFormat.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Buffers.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Diagnostics.EventLog.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Memory.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Numerics.Vectors.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Security.Principal.Windows.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Text.Encodings.Web.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Text.Json.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.ValueTuple.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Web.Helpers.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Web.Mvc.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Web.Razor.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Web.Webpages.Deployment.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Web.Webpages.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Web.Webpages.Razor.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\Aspose.Slides.xml
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\EntityFramework.xml
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\EntityFramework.SqlServer.xml
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\log4net.xml
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\Newtonsoft.Json.xml
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\PagedList.xml
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\PagedList.Mvc.xml
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\SmartFormat.pdb
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\SmartFormat.xml
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Buffers.xml
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Diagnostics.EventLog.xml
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Memory.xml
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Numerics.Vectors.xml
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Security.Principal.Windows.xml
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Text.Encodings.Web.xml
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Text.Json.xml
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.ValueTuple.xml
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Web.Razor.xml
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Web.Webpages.xml
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Web.Webpages.Deployment.xml
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Web.Webpages.Razor.xml
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Web.Helpers.xml
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\System.Web.Mvc.xml
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\obj\Debug\crud.csprojAssemblyReference.cache
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\obj\Debug\crud.csproj.CoreCompileInputs.cache
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\obj\Debug\crud.csproj.CopyComplete
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\obj\Debug\crud.dll
+C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\obj\Debug\crud.pdb

@@ -1,0 +1,198 @@
+﻿@model crud.Models.product
+
+@{
+    ViewBag.Title = "Edit";
+}
+ 
+@Html.Raw(TempData["UpdateMessage"])
+@Html.Raw(TempData["SizeMessage"])
+@Html.Raw(TempData["ExtensionMessage"])
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <style type="text/css">
+        .l {
+            float: left;
+            width: 50%;
+        }
+
+        .r {
+            float: right;
+            width: 20%;
+        }
+         .form-control.text-box.single-line {
+            border: 1px solid black;
+        }
+        .form-control.text-box.multi-line {
+            border: 1px solid black;
+        }
+         #Product_Category {
+            border: 1px solid black;
+        }
+
+        textarea {
+            padding: 10px 50px;
+        }
+
+        body {
+            margin: 15px;
+            padding: 15px;
+        }
+ 
+ 
+       
+    </style>
+
+</head>
+<body>
+
+    <div class="wrapper d-flex align-items-stretch">
+        <nav id="sidebar">
+            
+            <h1><a href="index.html" class="logo">PRODUCT MANAGEMENT</a></h1>
+            <ul class="list-unstyled components mb-5">
+                <li class="active">
+                    @Html.ActionLink("Product List", "Index", "Home")
+                </li>
+                <li>
+                    @Html.ActionLink("Add Product", "Create", "Home")
+                </li>
+            </ul>
+
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content" class="p-4 p-md-5 pt-5">
+
+
+<div class="l">       
+    <h1>Welcome @Session["Username"]</h1>
+            </div>
+
+
+
+<div class="r"> 
+    <h2>@Html.ActionLink("Logout", "Logout", "User", null, new { @class = "btn btn-primary btn-lg" })</h2>
+</div>
+            <div style="margin-top:70px;"> 
+
+            @using (Html.BeginForm("Edit", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-horizontal">
+                    <h2>Edit Product Details</h2>
+                    <hr />
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    @Html.HiddenFor(model => model.Product_Id)
+
+                    
+                    <div class="form-group">
+                        <h4 class = "control-label col-md-2">Product Name</h4>
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Product_name, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Product_name, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <h4 class="control-label col-md-2">Category</h4>
+                        <div class="col-md-10">
+                            @Html.DropDownListFor(model => model.Product_Category, new SelectList(new[] { "Mobiles", "TV", "Laptops" }), "Select Category", new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.Product_Category, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <h4 class="control-label col-md-2">Price</h4>
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Product_Price, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Product_Price, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <h4 class="control-label col-md-2">Quantity</h4>
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Product_Quantity, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Product_Quantity, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <h4 class="control-label col-md-2">Short Description</h4>
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Short_Description, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Short_Description, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <h4 class="control-label col-md-2">Long Description</h4>
+                        <div class="col-md-10">
+                            @Html.TextAreaFor(model => model.Long_Description, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Long_Description, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <h4 class="control-label col-md-2">Small Image</h4>
+                        <div class="col-md-10">
+                            <img src="@Url.Content( Session["Simage"].ToString())" height="75" width="75" />
+                            <br />
+                            <input type="file" name="SImageFile" />
+
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <h4 class="control-label col-md-2">Large Image</h4>
+                        <div class="col-md-10">
+                            <img src="@Url.Content( Session["Limage"].ToString())" height="130" width="130" />
+                            <br />
+
+                            <input type="file" name="LImageFile" />
+
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" value="Save" class="btn btn-primary" />
+                        </div>
+                    </div>
+                </div>
+            }
+
+            <div>
+                @Html.ActionLink("Product List", "Index")
+            </div>
+
+                </div>
+
+
+
+
+        </div>
+
+        <script src="~/js/jquery.min.js"></script>
+        <script src="~/js/popper.js"></script>
+        <script src="~/js/bootstrap.min.js"></script>
+        <script src="~/js/main.js"></script>
+
+        <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+        <script src="~/Scripts/jquery.validate.min.js"></script>
+        <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+</body>
+</html>
+
+ 

@@ -1,0 +1,462 @@
+2021-01-05 17:09:20,624 [8] DEBUG crud.Controllers.LoginController [(null)] - Hi I am log4net Debug Level logincontroller index
+2021-01-05 17:09:21,544 [8] INFO  crud.Controllers.LoginController [(null)] - Hi I am log4net Info Level  logincontroller index
+2021-01-05 17:09:21,549 [8] WARN  crud.Controllers.LoginController [(null)] - Hi I am log4net Warn Level  logincontroller index
+2021-01-05 17:14:04,495 [9] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Index Controller try block
+2021-01-05 17:14:04,496 [9] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level in Index Controller try block
+2021-01-05 17:14:04,496 [9] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level in Index Controller try block
+2021-01-05 17:14:39,167 [9] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level  in Edit  Controller try block get
+2021-01-05 17:14:39,169 [9] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in   Edit  Controller try block  get
+2021-01-05 17:14:39,169 [9] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in  Edit  Controller try block post
+2021-01-05 17:14:55,486 [7] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Index Controller try block
+2021-01-05 17:14:55,486 [7] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level in Index Controller try block
+2021-01-05 17:14:55,487 [7] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level in Index Controller try block
+2021-01-05 17:15:05,737 [7] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Create Controller try block Get
+2021-01-05 17:15:05,738 [7] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block Get
+2021-01-05 17:15:05,738 [7] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block Get
+2021-01-05 17:16:36,165 [9] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Index Controller try block
+2021-01-05 17:16:36,166 [9] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level in Index Controller try block
+2021-01-05 17:16:36,167 [9] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level in Index Controller try block
+2021-01-05 17:17:31,208 [9] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Index Controller try block
+2021-01-05 17:17:31,209 [9] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level in Index Controller try block
+2021-01-05 17:17:31,210 [9] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level in Index Controller try block
+2021-01-05 17:17:35,419 [13] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Index Controller try block
+2021-01-05 17:17:35,420 [13] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level in Index Controller try block
+2021-01-05 17:17:35,421 [13] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level in Index Controller try block
+2021-01-05 17:45:04,102 [30] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Index Controller try block
+2021-01-05 17:45:04,250 [30] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level in Index Controller try block
+2021-01-05 17:45:04,292 [30] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level in Index Controller try block
+2021-01-05 17:45:42,951 [30] ERROR crud.Controllers.HomeController [(null)] - Hi I am log4net Error Level in Index Controller Exception
+System.Data.Entity.Core.EntityException: The underlying provider failed on Open. ---> System.Data.SqlClient.SqlException: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=27415; handshake=347;  ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<>c.<Open>b__13_0(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__55_0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass2_0.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<>c__14`1.<GetElementFunction>b__14_3(IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   at PagedList.PagedList`1..ctor(IQueryable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IQueryable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at crud.Controllers.HomeController.Index(String SearchBy, String search, Nullable`1 page, String sortBy) in C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\Controllers\HomeController.cs:line 61
+2021-01-05 17:45:47,230 [30] FATAL crud.Controllers.HomeController [(null)] - Hi I am log4net Fatal Level in Index Controller Exception
+System.Data.Entity.Core.EntityException: The underlying provider failed on Open. ---> System.Data.SqlClient.SqlException: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=27415; handshake=347;  ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<>c.<Open>b__13_0(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__55_0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass2_0.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<>c__14`1.<GetElementFunction>b__14_3(IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   at PagedList.PagedList`1..ctor(IQueryable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IQueryable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at crud.Controllers.HomeController.Index(String SearchBy, String search, Nullable`1 page, String sortBy) in C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\Controllers\HomeController.cs:line 61
+2021-01-05 17:46:12,792 [30] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Index Controller try block
+2021-01-05 17:46:12,792 [30] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level in Index Controller try block
+2021-01-05 17:46:12,793 [30] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level in Index Controller try block
+2021-01-05 17:46:50,582 [30] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Create Controller try block Get
+2021-01-05 17:46:50,582 [30] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block Get
+2021-01-05 17:46:50,583 [30] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block Get
+2021-01-05 17:52:52,893 [31] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Create Controller try block Get
+2021-01-05 17:52:52,894 [31] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block Get
+2021-01-05 17:52:52,894 [31] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block Get
+2021-01-05 17:54:21,323 [32] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Index Controller try block
+2021-01-05 17:54:21,323 [32] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level in Index Controller try block
+2021-01-05 17:54:21,324 [32] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level in Index Controller try block
+2021-01-05 17:56:04,547 [39] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Create Controller try block Get
+2021-01-05 17:56:04,549 [39] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block Get
+2021-01-05 17:56:04,549 [39] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block Get
+2021-01-05 17:56:06,970 [38] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Create Controller try block Get
+2021-01-05 17:56:06,971 [38] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block Get
+2021-01-05 17:56:06,973 [38] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block Get
+2021-01-05 17:56:42,683 [39] ERROR crud.Controllers.HomeController [(null)] - Hi I am log4net Error Level  in Create Controller Catch block post
+System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at crud.Controllers.HomeController.Create(product p) in C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\Controllers\HomeController.cs:line 120
+2021-01-05 17:56:42,870 [39] FATAL crud.Controllers.HomeController [(null)] - Hi I am log4net Fatal Level  in Create Controller Catch block post
+System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at crud.Controllers.HomeController.Create(product p) in C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\Controllers\HomeController.cs:line 120
+2021-01-05 17:56:52,286 [35] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Create Controller try block Get
+2021-01-05 17:56:52,288 [35] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block Get
+2021-01-05 17:56:52,289 [35] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block Get
+2021-01-05 17:57:40,167 [32] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Create Controller try block Get
+2021-01-05 17:57:40,168 [32] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block Get
+2021-01-05 17:57:40,169 [32] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block Get
+2021-01-05 17:58:05,018 [40] ERROR crud.Controllers.HomeController [(null)] - Hi I am log4net Error Level  in Create Controller Catch block post
+System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at crud.Controllers.HomeController.Create(product p) in C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\Controllers\HomeController.cs:line 120
+2021-01-05 17:58:05,020 [40] FATAL crud.Controllers.HomeController [(null)] - Hi I am log4net Fatal Level  in Create Controller Catch block post
+System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at crud.Controllers.HomeController.Create(product p) in C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\Controllers\HomeController.cs:line 120
+2021-01-05 17:58:07,581 [35] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Create Controller try block Get
+2021-01-05 17:58:07,582 [35] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block Get
+2021-01-05 17:58:07,582 [35] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block Get
+2021-01-05 18:04:42,208 [42] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Create Controller try block Get
+2021-01-05 18:04:42,209 [42] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block Get
+2021-01-05 18:04:42,209 [42] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block Get
+2021-01-05 18:06:15,212 [40] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Index Controller try block
+2021-01-05 18:06:15,213 [40] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level in Index Controller try block
+2021-01-05 18:06:15,214 [40] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level in Index Controller try block
+2021-01-05 18:07:04,081 [40] ERROR crud.Controllers.HomeController [(null)] - Hi I am log4net Error Level in Index Controller Exception
+System.Data.Entity.Core.EntityException: The underlying provider failed on Open. ---> System.Data.SqlClient.SqlException: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=48251; handshake=36;  ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<>c.<Open>b__13_0(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__55_0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass2_0.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<>c__14`1.<GetElementFunction>b__14_3(IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   at PagedList.PagedList`1..ctor(IQueryable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IQueryable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at crud.Controllers.HomeController.Index(String SearchBy, String search, Nullable`1 page, String sortBy) in C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\Controllers\HomeController.cs:line 61
+2021-01-05 18:07:06,299 [40] FATAL crud.Controllers.HomeController [(null)] - Hi I am log4net Fatal Level in Index Controller Exception
+System.Data.Entity.Core.EntityException: The underlying provider failed on Open. ---> System.Data.SqlClient.SqlException: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=48251; handshake=36;  ---> System.ComponentModel.Win32Exception: The wait operation timed out
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<>c.<Open>b__13_0(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__55_0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass2_0.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<>c__14`1.<GetElementFunction>b__14_3(IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   at PagedList.PagedList`1..ctor(IQueryable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IQueryable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at crud.Controllers.HomeController.Index(String SearchBy, String search, Nullable`1 page, String sortBy) in C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\Controllers\HomeController.cs:line 61
+2021-01-05 18:07:50,693 [42] DEBUG crud.Controllers.LoginController [(null)] - Hi I am log4net Debug Level logincontroller index
+2021-01-05 18:07:50,726 [42] INFO  crud.Controllers.LoginController [(null)] - Hi I am log4net Info Level  logincontroller index
+2021-01-05 18:07:50,727 [42] WARN  crud.Controllers.LoginController [(null)] - Hi I am log4net Warn Level  logincontroller index
+2021-01-05 18:08:33,593 [39] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Index Controller try block
+2021-01-05 18:08:33,650 [39] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level in Index Controller try block
+2021-01-05 18:08:33,650 [39] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level in Index Controller try block
+2021-01-05 18:08:43,432 [40] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Create Controller try block Get
+2021-01-05 18:08:43,433 [40] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block Get
+2021-01-05 18:08:43,433 [40] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block Get
+2021-01-05 18:12:18,200 [31] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Create Controller try block Get
+2021-01-05 18:12:18,202 [31] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block Get
+2021-01-05 18:12:18,203 [31] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block Get
+2021-01-05 18:12:23,019 [31] DEBUG crud.Controllers.UserController [(null)] - Hi I am log4net Debug Level logout Controller try
+2021-01-05 18:12:23,020 [31] INFO  crud.Controllers.UserController [(null)] - Hi I am log4net Info Level logout Controller try
+2021-01-05 18:12:23,022 [31] WARN  crud.Controllers.UserController [(null)] - Hi I am log4net Warn Level logout Controller try
+2021-01-05 18:12:23,067 [40] DEBUG crud.Controllers.LoginController [(null)] - Hi I am log4net Debug Level logincontroller index
+2021-01-05 18:12:23,068 [40] INFO  crud.Controllers.LoginController [(null)] - Hi I am log4net Info Level  logincontroller index
+2021-01-05 18:12:23,069 [40] WARN  crud.Controllers.LoginController [(null)] - Hi I am log4net Warn Level  logincontroller index
+2021-01-05 18:12:48,236 [37] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Create Controller try block Get
+2021-01-05 18:12:48,236 [37] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block Get
+2021-01-05 18:12:48,237 [37] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block Get
+2021-01-05 18:13:12,108 [40] DEBUG crud.Controllers.LoginController [(null)] - Hi I am log4net Debug Level logincontroller index
+2021-01-05 18:13:12,108 [40] INFO  crud.Controllers.LoginController [(null)] - Hi I am log4net Info Level  logincontroller index
+2021-01-05 18:13:12,109 [40] WARN  crud.Controllers.LoginController [(null)] - Hi I am log4net Warn Level  logincontroller index
+2021-01-05 18:13:21,826 [30] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Create Controller try block Get
+2021-01-05 18:13:21,827 [30] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block Get
+2021-01-05 18:13:21,827 [30] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block Get
+2021-01-05 18:18:05,675 [31] DEBUG crud.Controllers.LoginController [(null)] - Hi I am log4net Debug Level logincontroller index
+2021-01-05 18:18:06,678 [31] INFO  crud.Controllers.LoginController [(null)] - Hi I am log4net Info Level  logincontroller index
+2021-01-05 18:18:06,681 [31] WARN  crud.Controllers.LoginController [(null)] - Hi I am log4net Warn Level  logincontroller index
+2021-01-05 18:22:10,906 [41] DEBUG crud.Controllers.LoginController [(null)] - Hi I am log4net Debug Level logincontroller index
+2021-01-05 18:22:10,907 [41] INFO  crud.Controllers.LoginController [(null)] - Hi I am log4net Info Level  logincontroller index
+2021-01-05 18:22:10,907 [41] WARN  crud.Controllers.LoginController [(null)] - Hi I am log4net Warn Level  logincontroller index
+2021-01-05 18:23:30,353 [40] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Create Controller try block Get
+2021-01-05 18:23:30,355 [40] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block Get
+2021-01-05 18:23:30,357 [40] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block Get
+2021-01-05 18:27:22,036 [39] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level  in Create Controller try block post
+2021-01-05 18:27:22,037 [39] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block post
+2021-01-05 18:27:22,038 [39] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block post
+2021-01-05 18:28:12,969 [39] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level  in Create Controller try block post
+2021-01-05 18:28:12,970 [39] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block post
+2021-01-05 18:28:12,982 [39] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block post
+2021-01-05 18:28:56,158 [26] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level  in Create Controller try block post
+2021-01-05 18:28:56,159 [26] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block post
+2021-01-05 18:28:56,159 [26] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block post
+2021-01-05 18:30:19,777 [26] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level  in Create Controller try block post
+2021-01-05 18:30:19,777 [26] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block post
+2021-01-05 18:30:19,778 [26] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block post
+2021-01-05 18:30:49,561 [41] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level  in Create Controller try block post
+2021-01-05 18:30:49,562 [41] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block post
+2021-01-05 18:30:49,562 [41] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block post
+2021-01-05 18:31:08,220 [31] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level  in Create Controller try block post
+2021-01-05 18:31:08,220 [31] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block post
+2021-01-05 18:31:08,220 [31] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block post
+2021-01-05 18:31:37,244 [25] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level  in Create Controller try block post
+2021-01-05 18:31:37,244 [25] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block post
+2021-01-05 18:31:37,244 [25] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block post
+2021-01-05 18:32:16,237 [27] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level  in Create Controller try block post
+2021-01-05 18:32:16,237 [27] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block post
+2021-01-05 18:32:16,238 [27] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block post
+2021-01-05 18:32:20,506 [25] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Index Controller try block
+2021-01-05 18:32:20,507 [25] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level in Index Controller try block
+2021-01-05 18:32:20,507 [25] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level in Index Controller try block
+2021-01-05 18:32:43,463 [25] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Create Controller try block Get
+2021-01-05 18:32:43,464 [25] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block Get
+2021-01-05 18:32:43,464 [25] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block Get
+2021-01-05 18:32:50,653 [24] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level  in Create Controller try block post
+2021-01-05 18:32:50,654 [24] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block post
+2021-01-05 18:32:50,656 [24] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block post
+2021-01-05 18:33:30,145 [41] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level  in Create Controller try block post
+2021-01-05 18:33:30,145 [41] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block post
+2021-01-05 18:33:30,145 [41] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block post
+2021-01-05 18:37:28,133 [35] DEBUG crud.Controllers.LoginController [(null)] - Hi I am log4net Debug Level logincontroller index
+2021-01-05 18:37:28,680 [35] INFO  crud.Controllers.LoginController [(null)] - Hi I am log4net Info Level  logincontroller index
+2021-01-05 18:37:28,681 [35] WARN  crud.Controllers.LoginController [(null)] - Hi I am log4net Warn Level  logincontroller index
+2021-01-05 18:41:08,122 [41] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Create Controller try block Get
+2021-01-05 18:41:08,123 [41] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block Get
+2021-01-05 18:41:08,123 [41] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block Get
+2021-01-05 18:42:19,551 [33] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Index Controller try block
+2021-01-05 18:42:19,552 [33] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level in Index Controller try block
+2021-01-05 18:42:19,552 [33] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level in Index Controller try block
+2021-01-05 18:42:30,788 [33] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Index Controller try block
+2021-01-05 18:42:30,789 [33] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level in Index Controller try block
+2021-01-05 18:42:30,789 [33] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level in Index Controller try block
+2021-01-05 18:42:36,729 [39] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level  in Edit  Controller try block get
+2021-01-05 18:42:36,729 [39] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in   Edit  Controller try block  get
+2021-01-05 18:42:36,730 [39] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in  Edit  Controller try block post
+2021-01-05 18:42:58,379 [24] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level  in Edit  Controller try block get
+2021-01-05 18:42:58,380 [24] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in   Edit  Controller try block  get
+2021-01-05 18:42:58,381 [24] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in  Edit  Controller try block post
+2021-01-05 18:43:15,587 [38] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level  in Edit  Controller try block get
+2021-01-05 18:43:15,588 [38] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in   Edit  Controller try block  get
+2021-01-05 18:43:15,589 [38] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in  Edit  Controller try block post
+2021-01-05 18:43:25,433 [41] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level  in Edit  Controller try block get
+2021-01-05 18:43:25,434 [41] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in   Edit  Controller try block  get
+2021-01-05 18:43:25,434 [41] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in  Edit  Controller try block post
+2021-01-05 18:43:30,789 [24] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level  in Edit  Controller try block get
+2021-01-05 18:43:30,790 [24] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in   Edit  Controller try block  get
+2021-01-05 18:43:30,790 [24] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in  Edit  Controller try block post
+2021-01-05 18:43:30,990 [39] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Index Controller try block
+2021-01-05 18:43:30,991 [39] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level in Index Controller try block
+2021-01-05 18:43:30,991 [39] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level in Index Controller try block
+2021-01-05 18:43:36,057 [31] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Index Controller try block
+2021-01-05 18:43:36,057 [31] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level in Index Controller try block
+2021-01-05 18:43:36,057 [31] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level in Index Controller try block
+2021-01-05 18:43:38,350 [17] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level  in Edit  Controller try block get
+2021-01-05 18:43:38,351 [17] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in   Edit  Controller try block  get
+2021-01-05 18:43:38,352 [17] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in  Edit  Controller try block post
+2021-01-05 18:43:41,523 [17] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Index Controller try block
+2021-01-05 18:43:41,523 [17] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level in Index Controller try block
+2021-01-05 18:43:41,524 [17] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level in Index Controller try block
+2021-01-05 18:43:47,783 [33] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level  in Edit  Controller try block get
+2021-01-05 18:43:47,785 [33] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in   Edit  Controller try block  get
+2021-01-05 18:43:47,786 [33] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in  Edit  Controller try block post
+2021-01-05 18:43:53,492 [24] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Index Controller try block
+2021-01-05 18:43:53,494 [24] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level in Index Controller try block
+2021-01-05 18:43:53,495 [24] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level in Index Controller try block
+2021-01-05 18:44:07,743 [17] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Index Controller try block
+2021-01-05 18:44:07,744 [17] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level in Index Controller try block
+2021-01-05 18:44:07,744 [17] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level in Index Controller try block
+2021-01-05 18:44:17,133 [33] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Index Controller try block
+2021-01-05 18:44:17,133 [33] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level in Index Controller try block
+2021-01-05 18:44:17,133 [33] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level in Index Controller try block
+2021-01-05 18:44:27,774 [22] DEBUG crud.Controllers.UserController [(null)] - Hi I am log4net Debug Level logout Controller try
+2021-01-05 18:44:27,775 [22] INFO  crud.Controllers.UserController [(null)] - Hi I am log4net Info Level logout Controller try
+2021-01-05 18:44:27,775 [22] WARN  crud.Controllers.UserController [(null)] - Hi I am log4net Warn Level logout Controller try
+2021-01-05 18:44:27,823 [38] DEBUG crud.Controllers.LoginController [(null)] - Hi I am log4net Debug Level logincontroller index
+2021-01-05 18:44:27,823 [38] INFO  crud.Controllers.LoginController [(null)] - Hi I am log4net Info Level  logincontroller index
+2021-01-05 18:44:27,824 [38] WARN  crud.Controllers.LoginController [(null)] - Hi I am log4net Warn Level  logincontroller index
+2021-01-05 18:55:24,429 [35] DEBUG crud.Controllers.LoginController [(null)] - Hi I am log4net Debug Level logincontroller index
+2021-01-05 18:55:24,439 [35] INFO  crud.Controllers.LoginController [(null)] - Hi I am log4net Info Level  logincontroller index
+2021-01-05 18:55:24,440 [35] WARN  crud.Controllers.LoginController [(null)] - Hi I am log4net Warn Level  logincontroller index
+2021-01-05 18:56:23,404 [28] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Index Controller try block
+2021-01-05 18:56:23,414 [28] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level in Index Controller try block
+2021-01-05 18:56:23,415 [28] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level in Index Controller try block
+2021-01-05 18:56:30,503 [23] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Create Controller try block Get
+2021-01-05 18:56:30,503 [23] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block Get
+2021-01-05 18:56:30,504 [23] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block Get
+2021-01-05 18:56:37,507 [35] DEBUG crud.Controllers.UserController [(null)] - Hi I am log4net Debug Level logout Controller try
+2021-01-05 18:56:37,507 [35] INFO  crud.Controllers.UserController [(null)] - Hi I am log4net Info Level logout Controller try
+2021-01-05 18:56:37,508 [35] WARN  crud.Controllers.UserController [(null)] - Hi I am log4net Warn Level logout Controller try
+2021-01-05 18:56:37,513 [28] DEBUG crud.Controllers.LoginController [(null)] - Hi I am log4net Debug Level logincontroller index
+2021-01-05 18:56:37,513 [28] INFO  crud.Controllers.LoginController [(null)] - Hi I am log4net Info Level  logincontroller index
+2021-01-05 18:56:37,514 [28] WARN  crud.Controllers.LoginController [(null)] - Hi I am log4net Warn Level  logincontroller index
+2021-01-05 18:56:40,629 [28] DEBUG crud.Controllers.LoginController [(null)] - Hi I am log4net Debug Level signup Get
+2021-01-05 18:56:40,629 [28] INFO  crud.Controllers.LoginController [(null)] - Hi I am log4net Info Level signup Get
+2021-01-05 18:56:40,630 [28] WARN  crud.Controllers.LoginController [(null)] - Hi I am log4net Warn Level signup Get
+2021-01-05 18:56:53,596 [36] DEBUG crud.Controllers.LoginController [(null)] - Hi I am log4net Debug Level logincontroller index
+2021-01-05 18:56:53,597 [36] INFO  crud.Controllers.LoginController [(null)] - Hi I am log4net Info Level  logincontroller index
+2021-01-05 18:56:53,598 [36] WARN  crud.Controllers.LoginController [(null)] - Hi I am log4net Warn Level  logincontroller index
+2021-01-05 19:09:28,275 [37] DEBUG crud.Controllers.LoginController [(null)] - Hi I am log4net Debug Level logincontroller index
+2021-01-05 19:09:28,276 [37] INFO  crud.Controllers.LoginController [(null)] - Hi I am log4net Info Level  logincontroller index
+2021-01-05 19:09:28,276 [37] WARN  crud.Controllers.LoginController [(null)] - Hi I am log4net Warn Level  logincontroller index
+2021-01-05 19:12:02,522 [40] DEBUG crud.Controllers.LoginController [(null)] - Hi I am log4net Debug Level logincontroller index
+2021-01-05 19:12:02,524 [40] INFO  crud.Controllers.LoginController [(null)] - Hi I am log4net Info Level  logincontroller index
+2021-01-05 19:12:02,525 [40] WARN  crud.Controllers.LoginController [(null)] - Hi I am log4net Warn Level  logincontroller index
+2021-01-05 19:12:12,048 [14] DEBUG crud.Controllers.LoginController [(null)] - Hi I am log4net Debug Level signup Get
+2021-01-05 19:12:12,049 [14] INFO  crud.Controllers.LoginController [(null)] - Hi I am log4net Info Level signup Get
+2021-01-05 19:12:12,050 [14] WARN  crud.Controllers.LoginController [(null)] - Hi I am log4net Warn Level signup Get
+2021-01-05 19:12:14,346 [40] DEBUG crud.Controllers.LoginController [(null)] - Hi I am log4net Debug Level logincontroller index
+2021-01-05 19:12:14,347 [40] INFO  crud.Controllers.LoginController [(null)] - Hi I am log4net Info Level  logincontroller index
+2021-01-05 19:12:14,347 [40] WARN  crud.Controllers.LoginController [(null)] - Hi I am log4net Warn Level  logincontroller index
+2021-01-05 19:13:02,041 [37] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Index Controller try block
+2021-01-05 19:13:02,042 [37] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level in Index Controller try block
+2021-01-05 19:13:02,042 [37] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level in Index Controller try block
+2021-01-05 19:13:50,473 [14] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level  in Edit  Controller try block get
+2021-01-05 19:13:50,474 [14] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in   Edit  Controller try block  get
+2021-01-05 19:13:50,474 [14] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in  Edit  Controller try block post
+2021-01-05 19:14:00,665 [37] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Index Controller try block
+2021-01-05 19:14:00,666 [37] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level in Index Controller try block
+2021-01-05 19:14:00,666 [37] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level in Index Controller try block
+2021-01-05 19:14:13,659 [14] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Create Controller try block Get
+2021-01-05 19:14:13,661 [14] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block Get
+2021-01-05 19:14:13,662 [14] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block Get
+2021-01-05 19:39:17,541 [11] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Create Controller try block Get
+2021-01-05 19:39:17,542 [11] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block Get
+2021-01-05 19:39:17,542 [11] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block Get
+2021-01-05 19:39:24,912 [11] DEBUG crud.Controllers.UserController [(null)] - Hi I am log4net Debug Level logout Controller try
+2021-01-05 19:39:24,912 [11] INFO  crud.Controllers.UserController [(null)] - Hi I am log4net Info Level logout Controller try
+2021-01-05 19:39:24,913 [11] WARN  crud.Controllers.UserController [(null)] - Hi I am log4net Warn Level logout Controller try
+2021-01-05 19:39:24,949 [8] DEBUG crud.Controllers.LoginController [(null)] - Hi I am log4net Debug Level logincontroller index
+2021-01-05 19:39:24,950 [8] INFO  crud.Controllers.LoginController [(null)] - Hi I am log4net Info Level  logincontroller index
+2021-01-05 19:39:24,950 [8] WARN  crud.Controllers.LoginController [(null)] - Hi I am log4net Warn Level  logincontroller index
+2021-01-05 21:52:05,815 [55] DEBUG crud.Controllers.LoginController [(null)] - Hi I am log4net Debug Level logincontroller index
+2021-01-05 21:52:10,469 [55] INFO  crud.Controllers.LoginController [(null)] - Hi I am log4net Info Level  logincontroller index
+2021-01-05 21:52:10,471 [55] WARN  crud.Controllers.LoginController [(null)] - Hi I am log4net Warn Level  logincontroller index
+2021-01-05 21:57:05,318 [46] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Index Controller try block
+2021-01-05 21:57:05,319 [46] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level in Index Controller try block
+2021-01-05 21:57:05,320 [46] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level in Index Controller try block
+2021-01-05 21:57:23,869 [59] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level  in Edit  Controller try block get
+2021-01-05 21:57:23,870 [59] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in   Edit  Controller try block  get
+2021-01-05 21:57:23,871 [59] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in  Edit  Controller try block post
+2021-01-05 21:57:40,042 [46] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Index Controller try block
+2021-01-05 21:57:40,043 [46] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level in Index Controller try block
+2021-01-05 21:57:40,043 [46] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level in Index Controller try block
+2021-01-05 21:57:44,340 [46] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Create Controller try block Get
+2021-01-05 21:57:44,341 [46] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level  in Create Controller try block Get
+2021-01-05 21:57:44,342 [46] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level  in Create Controller try block Get
+2021-01-05 21:58:53,757 [60] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Index Controller try block
+2021-01-05 21:58:53,759 [60] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level in Index Controller try block
+2021-01-05 21:58:53,759 [60] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level in Index Controller try block
+2021-01-05 21:59:04,268 [46] DEBUG crud.Controllers.HomeController [(null)] - Hi I am log4net Debug Level in Index Controller try block
+2021-01-05 21:59:04,269 [46] INFO  crud.Controllers.HomeController [(null)] - Hi I am log4net Info Level in Index Controller try block
+2021-01-05 21:59:04,269 [46] WARN  crud.Controllers.HomeController [(null)] - Hi I am log4net Warn Level in Index Controller try block
+2021-01-05 21:59:08,813 [59] DEBUG crud.Controllers.UserController [(null)] - Hi I am log4net Debug Level logout Controller try
+2021-01-05 21:59:08,814 [59] INFO  crud.Controllers.UserController [(null)] - Hi I am log4net Info Level logout Controller try
+2021-01-05 21:59:08,815 [59] WARN  crud.Controllers.UserController [(null)] - Hi I am log4net Warn Level logout Controller try
+2021-01-05 21:59:08,927 [60] DEBUG crud.Controllers.LoginController [(null)] - Hi I am log4net Debug Level logincontroller index
+2021-01-05 21:59:08,928 [60] INFO  crud.Controllers.LoginController [(null)] - Hi I am log4net Info Level  logincontroller index
+2021-01-05 21:59:08,929 [60] WARN  crud.Controllers.LoginController [(null)] - Hi I am log4net Warn Level  logincontroller index

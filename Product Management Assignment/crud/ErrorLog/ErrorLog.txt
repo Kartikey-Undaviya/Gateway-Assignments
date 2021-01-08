@@ -1,0 +1,261 @@
+2021-01-07 17:33:16,809 [6] DEBUG crud.Controllers.LoginController [(null)] - LoginController Index - log4net Debug Level
+2021-01-07 17:33:17,936 [6] INFO  crud.Controllers.LoginController [(null)] - LoginController Index - log4net Info Level
+2021-01-07 17:33:17,939 [6] WARN  crud.Controllers.LoginController [(null)] - LoginController Index - log4net Warn Level
+2021-01-07 17:35:43,609 [5] DEBUG crud.Controllers.LoginController [(null)] - log4net Debug Level - Signup Get method
+2021-01-07 17:35:43,611 [5] INFO  crud.Controllers.LoginController [(null)] - log4net Info Level - Signup Get method
+2021-01-07 17:35:43,612 [5] WARN  crud.Controllers.LoginController [(null)] - log4net Warn Level - Level Signup Get
+2021-01-07 17:38:01,965 [9] DEBUG crud.Controllers.LoginController [(null)] - log4net Debug Level - Signup Get method
+2021-01-07 17:38:01,967 [9] INFO  crud.Controllers.LoginController [(null)] - log4net Info Level - Signup Get method
+2021-01-07 17:38:01,968 [9] WARN  crud.Controllers.LoginController [(null)] - log4net Warn Level - Level Signup Get
+2021-01-07 17:52:06,917 [6] DEBUG crud.Controllers.LoginController [(null)] - log4net Debug Level - Signup Get method
+2021-01-07 17:52:07,236 [6] INFO  crud.Controllers.LoginController [(null)] - log4net Info Level - Signup Get method
+2021-01-07 17:52:07,238 [6] WARN  crud.Controllers.LoginController [(null)] - log4net Warn Level - Level Signup Get
+2021-01-07 17:55:20,220 [8] DEBUG crud.Controllers.LoginController [(null)] - log4net Debug Level - Signup try block Post method
+2021-01-07 17:55:20,255 [8] INFO  crud.Controllers.LoginController [(null)] - log4net Info Level - Signup try block Post method
+2021-01-07 17:55:20,256 [8] WARN  crud.Controllers.LoginController [(null)] - log4net Warn Level - Signup try block Post method
+2021-01-07 17:55:43,751 [11] DEBUG crud.Controllers.LoginController [(null)] - LoginController Index - log4net Debug Level
+2021-01-07 17:55:43,752 [11] INFO  crud.Controllers.LoginController [(null)] - LoginController Index - log4net Info Level
+2021-01-07 17:55:43,752 [11] WARN  crud.Controllers.LoginController [(null)] - LoginController Index - log4net Warn Level
+2021-01-07 17:56:33,724 [5] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 17:56:33,725 [5] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 17:56:33,725 [5] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 18:05:31,764 [5] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Create Controller try block Get method
+2021-01-07 18:05:31,765 [5] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level  - Create Controller try block Get method
+2021-01-07 18:05:31,765 [5] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level  - Create Controller try block Get method
+2021-01-07 18:07:49,623 [5] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 18:07:49,623 [5] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 18:07:49,624 [5] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 18:08:22,897 [20] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 18:08:22,898 [20] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 18:08:22,898 [20] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 18:08:32,533 [16] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 18:08:32,534 [16] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 18:08:32,534 [16] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 18:08:36,878 [20] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Create Controller try block Get method
+2021-01-07 18:08:36,878 [20] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level  - Create Controller try block Get method
+2021-01-07 18:08:36,878 [20] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level  - Create Controller try block Get method
+2021-01-07 18:10:48,927 [16] ERROR crud.Controllers.HomeController [(null)] - log4net Error Level - Create Controller Catch block post method
+System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at crud.Controllers.HomeController.Create(product p) in C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\Controllers\HomeController.cs:line 122
+2021-01-07 18:10:50,211 [16] FATAL crud.Controllers.HomeController [(null)] - Hi I am log4net Fatal Level - Create Controller Catch block post method
+System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at crud.Controllers.HomeController.Create(product p) in C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\Controllers\HomeController.cs:line 122
+2021-01-07 18:11:04,861 [5] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Create Controller try block Get method
+2021-01-07 18:11:04,861 [5] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level  - Create Controller try block Get method
+2021-01-07 18:11:04,863 [5] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level  - Create Controller try block Get method
+2021-01-07 18:11:06,877 [21] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Create Controller try block Get method
+2021-01-07 18:11:06,880 [21] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level  - Create Controller try block Get method
+2021-01-07 18:11:06,881 [21] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level  - Create Controller try block Get method
+2021-01-07 18:12:11,891 [16] ERROR crud.Controllers.HomeController [(null)] - log4net Error Level - Create Controller Catch block post method
+System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at crud.Controllers.HomeController.Create(product p) in C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\Controllers\HomeController.cs:line 122
+2021-01-07 18:12:11,894 [16] FATAL crud.Controllers.HomeController [(null)] - Hi I am log4net Fatal Level - Create Controller Catch block post method
+System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at crud.Controllers.HomeController.Create(product p) in C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\Controllers\HomeController.cs:line 122
+2021-01-07 18:12:27,993 [12] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Create Controller try block Get method
+2021-01-07 18:12:27,994 [12] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level  - Create Controller try block Get method
+2021-01-07 18:12:27,994 [12] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level  - Create Controller try block Get method
+2021-01-07 18:12:30,244 [21] DEBUG crud.Controllers.UserController [(null)] - log4net Debug Level - Logout Controller
+2021-01-07 18:12:30,245 [21] INFO  crud.Controllers.UserController [(null)] - log4net Info Level - Logout Controller
+2021-01-07 18:12:30,246 [21] WARN  crud.Controllers.UserController [(null)] - log4net Warn Level - Logout Controller
+2021-01-07 18:12:30,266 [12] DEBUG crud.Controllers.LoginController [(null)] - LoginController Index - log4net Debug Level
+2021-01-07 18:12:30,267 [12] INFO  crud.Controllers.LoginController [(null)] - LoginController Index - log4net Info Level
+2021-01-07 18:12:30,267 [12] WARN  crud.Controllers.LoginController [(null)] - LoginController Index - log4net Warn Level
+2021-01-07 18:12:44,101 [16] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Create Controller try block Get method
+2021-01-07 18:12:44,103 [16] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level  - Create Controller try block Get method
+2021-01-07 18:12:44,107 [16] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level  - Create Controller try block Get method
+2021-01-07 18:12:45,898 [7] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 18:12:45,899 [7] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 18:12:45,900 [7] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 18:12:47,893 [16] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Create Controller try block Get method
+2021-01-07 18:12:47,894 [16] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level  - Create Controller try block Get method
+2021-01-07 18:12:47,894 [16] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level  - Create Controller try block Get method
+2021-01-07 18:13:42,286 [18] ERROR crud.Controllers.HomeController [(null)] - log4net Error Level - Create Controller Catch block post method
+System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at crud.Controllers.HomeController.Create(product p) in C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\Controllers\HomeController.cs:line 122
+2021-01-07 18:13:42,289 [18] FATAL crud.Controllers.HomeController [(null)] - Hi I am log4net Fatal Level - Create Controller Catch block post method
+System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at crud.Controllers.HomeController.Create(product p) in C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\Controllers\HomeController.cs:line 122
+2021-01-07 18:16:40,164 [21] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Create Controller try block Get method
+2021-01-07 18:16:40,165 [21] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level  - Create Controller try block Get method
+2021-01-07 18:16:40,165 [21] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level  - Create Controller try block Get method
+2021-01-07 18:20:00,508 [28] ERROR crud.Controllers.HomeController [(null)] - log4net Error Level - Create Controller Catch block post method
+System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at crud.Controllers.HomeController.Create(product p) in C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\Controllers\HomeController.cs:line 122
+2021-01-07 18:20:00,510 [28] FATAL crud.Controllers.HomeController [(null)] - Hi I am log4net Fatal Level - Create Controller Catch block post method
+System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at crud.Controllers.HomeController.Create(product p) in C:\Users\KARTIKEY\Desktop\Gateway Assignment\crud\Controllers\HomeController.cs:line 122
+2021-01-07 18:21:39,737 [29] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Create Controller try block Get method
+2021-01-07 18:21:39,738 [29] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level  - Create Controller try block Get method
+2021-01-07 18:21:39,739 [29] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level  - Create Controller try block Get method
+2021-01-07 18:22:11,379 [28] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 18:22:11,381 [28] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 18:22:11,382 [28] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 18:24:39,261 [18] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Create Controller try block Get method
+2021-01-07 18:24:39,261 [18] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level  - Create Controller try block Get method
+2021-01-07 18:24:39,261 [18] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level  - Create Controller try block Get method
+2021-01-07 18:27:50,989 [7] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 18:27:50,990 [7] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 18:27:50,990 [7] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 18:28:08,864 [7] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Create Controller try block Get method
+2021-01-07 18:28:08,865 [7] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level  - Create Controller try block Get method
+2021-01-07 18:28:08,865 [7] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level  - Create Controller try block Get method
+2021-01-07 18:28:17,941 [22] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 18:28:17,941 [22] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 18:28:17,942 [22] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 18:28:29,339 [28] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Create Controller try block Get method
+2021-01-07 18:28:29,342 [28] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level  - Create Controller try block Get method
+2021-01-07 18:28:29,343 [28] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level  - Create Controller try block Get method
+2021-01-07 18:34:22,025 [30] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 18:34:22,025 [30] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 18:34:22,026 [30] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 18:34:28,476 [27] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 18:34:28,477 [27] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 18:34:28,477 [27] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 18:34:32,938 [31] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 18:34:32,939 [31] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 18:34:32,939 [31] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 18:34:45,676 [7] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 18:34:45,677 [7] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 18:34:45,677 [7] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 18:34:56,493 [31] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 18:34:56,494 [31] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 18:34:56,494 [31] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 18:35:03,531 [27] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 18:35:03,532 [27] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 18:35:03,532 [27] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 18:35:20,945 [24] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 18:35:20,945 [24] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 18:35:20,945 [24] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 18:35:26,565 [24] DEBUG crud.Controllers.UserController [(null)] - log4net Debug Level - Logout Controller
+2021-01-07 18:35:26,565 [24] INFO  crud.Controllers.UserController [(null)] - log4net Info Level - Logout Controller
+2021-01-07 18:35:26,566 [24] WARN  crud.Controllers.UserController [(null)] - log4net Warn Level - Logout Controller
+2021-01-07 18:35:26,691 [7] DEBUG crud.Controllers.LoginController [(null)] - LoginController Index - log4net Debug Level
+2021-01-07 18:35:26,691 [7] INFO  crud.Controllers.LoginController [(null)] - LoginController Index - log4net Info Level
+2021-01-07 18:35:26,705 [7] WARN  crud.Controllers.LoginController [(null)] - LoginController Index - log4net Warn Level
+2021-01-07 18:40:00,051 [26] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 18:40:00,051 [26] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 18:40:00,051 [26] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 18:40:10,542 [31] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 18:40:10,542 [31] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 18:40:10,543 [31] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 18:40:15,298 [7] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Edit Controller try block get method
+2021-01-07 18:40:15,298 [7] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Edit Controller try block  get method
+2021-01-07 18:40:15,299 [7] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Edit Controller try block get method
+2021-01-07 18:40:18,489 [26] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 18:40:18,490 [26] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 18:40:18,490 [26] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 18:40:24,577 [20] DEBUG crud.Controllers.UserController [(null)] - log4net Debug Level - Logout Controller
+2021-01-07 18:40:24,580 [20] INFO  crud.Controllers.UserController [(null)] - log4net Info Level - Logout Controller
+2021-01-07 18:40:24,581 [20] WARN  crud.Controllers.UserController [(null)] - log4net Warn Level - Logout Controller
+2021-01-07 18:40:24,592 [7] DEBUG crud.Controllers.LoginController [(null)] - LoginController Index - log4net Debug Level
+2021-01-07 18:40:24,592 [7] INFO  crud.Controllers.LoginController [(null)] - LoginController Index - log4net Info Level
+2021-01-07 18:40:24,593 [7] WARN  crud.Controllers.LoginController [(null)] - LoginController Index - log4net Warn Level
+2021-01-07 19:07:56,768 [11] DEBUG crud.Controllers.LoginController [(null)] - LoginController Index - log4net Debug Level
+2021-01-07 19:07:56,768 [8] DEBUG crud.Controllers.LoginController [(null)] - LoginController Index - log4net Debug Level
+2021-01-07 19:07:57,490 [11] INFO  crud.Controllers.LoginController [(null)] - LoginController Index - log4net Info Level
+2021-01-07 19:07:57,491 [8] INFO  crud.Controllers.LoginController [(null)] - LoginController Index - log4net Info Level
+2021-01-07 19:07:57,493 [8] WARN  crud.Controllers.LoginController [(null)] - LoginController Index - log4net Warn Level
+2021-01-07 19:07:57,492 [11] WARN  crud.Controllers.LoginController [(null)] - LoginController Index - log4net Warn Level
+2021-01-07 19:12:36,897 [13] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 19:12:36,897 [13] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 19:12:36,898 [13] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 19:13:05,931 [9] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Create Controller try block Get method
+2021-01-07 19:13:05,932 [9] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level  - Create Controller try block Get method
+2021-01-07 19:13:05,932 [9] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level  - Create Controller try block Get method
+2021-01-07 19:14:06,721 [13] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 19:14:06,721 [13] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 19:14:06,722 [13] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 19:14:15,425 [13] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 19:14:15,426 [13] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 19:14:15,427 [13] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 19:14:21,473 [14] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Edit Controller try block get method
+2021-01-07 19:14:21,474 [14] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Edit Controller try block  get method
+2021-01-07 19:14:21,474 [14] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Edit Controller try block get method
+2021-01-07 19:14:31,160 [4] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 19:14:31,161 [4] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 19:14:31,163 [4] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 19:14:36,534 [14] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 19:14:36,535 [14] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 19:14:36,536 [14] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 19:14:46,605 [14] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 19:14:46,606 [14] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 19:14:46,606 [14] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 19:14:48,555 [16] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 19:14:48,555 [16] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 19:14:48,555 [16] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 19:15:12,019 [13] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 19:15:12,020 [13] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 19:15:12,020 [13] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 19:15:17,653 [14] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 19:15:17,653 [14] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 19:15:17,654 [14] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 19:15:22,770 [16] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 19:15:22,770 [16] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 19:15:22,771 [16] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 19:15:26,185 [4] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Edit Controller try block get method
+2021-01-07 19:15:26,186 [4] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Edit Controller try block  get method
+2021-01-07 19:15:26,187 [4] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Edit Controller try block get method
+2021-01-07 19:15:55,530 [4] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 19:15:55,533 [4] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 19:15:55,534 [4] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 19:16:00,047 [14] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 19:16:00,049 [14] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 19:16:00,049 [14] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 19:16:03,090 [9] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 19:16:03,091 [9] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 19:16:03,091 [9] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 19:16:06,626 [16] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Edit Controller try block get method
+2021-01-07 19:16:06,627 [16] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Edit Controller try block  get method
+2021-01-07 19:16:06,627 [16] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Edit Controller try block get method
+2021-01-07 19:16:56,703 [16] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 19:16:56,704 [16] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 19:16:56,704 [16] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 19:17:02,364 [14] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 19:17:02,365 [14] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 19:17:02,367 [14] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 19:17:05,229 [9] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 19:17:05,230 [9] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 19:17:05,231 [9] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 19:17:08,932 [16] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Create Controller try block Get method
+2021-01-07 19:17:08,933 [16] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level  - Create Controller try block Get method
+2021-01-07 19:17:08,934 [16] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level  - Create Controller try block Get method
+2021-01-07 19:18:03,146 [14] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 19:18:03,149 [14] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 19:18:03,151 [14] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 19:18:09,617 [14] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 19:18:09,617 [14] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 19:18:09,618 [14] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 19:18:22,809 [10] DEBUG crud.Controllers.HomeController [(null)] - log4net Debug Level - Home Controller try block
+2021-01-07 19:18:22,809 [10] INFO  crud.Controllers.HomeController [(null)] - log4net Info Level - Home Controller try block
+2021-01-07 19:18:22,809 [10] WARN  crud.Controllers.HomeController [(null)] - log4net Warn Level - Home Controller try block
+2021-01-07 19:18:34,436 [10] DEBUG crud.Controllers.UserController [(null)] - log4net Debug Level - Logout Controller
+2021-01-07 19:18:34,437 [10] INFO  crud.Controllers.UserController [(null)] - log4net Info Level - Logout Controller
+2021-01-07 19:18:34,438 [10] WARN  crud.Controllers.UserController [(null)] - log4net Warn Level - Logout Controller
+2021-01-07 19:18:34,450 [9] DEBUG crud.Controllers.LoginController [(null)] - LoginController Index - log4net Debug Level
+2021-01-07 19:18:34,451 [9] INFO  crud.Controllers.LoginController [(null)] - LoginController Index - log4net Info Level
+2021-01-07 19:18:34,452 [9] WARN  crud.Controllers.LoginController [(null)] - LoginController Index - log4net Warn Level
