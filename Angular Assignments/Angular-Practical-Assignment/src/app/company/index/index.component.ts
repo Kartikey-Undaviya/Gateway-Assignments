@@ -9,7 +9,6 @@ import { Router} from '@angular/router';
 })
 export class IndexComponent implements OnInit {
  
-  
   constructor(private service:WebapiService,private router:Router) { }
 
   
