@@ -1,0 +1,146 @@
+
+
+<body class="sb-nav-fixed">
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+        <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars" style="margin-left: 10px;"></i></button>
+        <a class="navbar-brand" href="index">ANGULAR ASSIGNMENT</a>
+       
+    </nav>
+    <div id="layoutSidenav">
+        <div id="layoutSidenav_nav">
+            <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                <div class="sb-sidenav-menu">
+                    <div class="nav">
+                        <a class="nav-link"  href="index">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                            Dashboard
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div id="layoutSidenav_content">
+            <main>
+                <div class="container-fluid">
+                    <div class="card mb-4" style="margin-top: 25px;">
+                        <div class="card-header">
+                            <i class="fas fa-plus"></i>
+                            Add Company Data
+                        </div>
+
+                        <div class="card-body">
+                            <form  #myform="ngForm" novalidate >
+                                <div class="m-3">
+                                    <div class="form-group row">
+                                        <label class="col-4 col-form-label">Name : </label>
+                                        <div class="col-8">
+                                            <input type="text"  class="form-control"  name="name"  [(ngModel)]="companyobj.name" required />
+                                            <div *ngIf="myform.controls.name.invalid" style="color: red">Required</div>
+                                        </div>
+                                       
+          
+                                    </div>
+                                     
+                                     <div class="form-group row">
+                                        <label class="col-4 col-form-label">Email : </label>
+                                        <div class="col-8">
+                                            <input type="email" class="form-control" name="email" [(ngModel)]="companyobj.email" email  #email="ngModel" required/>
+                                            <div *ngIf="email.errors?.email" style="color: red"> 
+                                                 Email Id Not valid.
+                                           </div> 
+                                          
+                                           
+                                        </div>
+                                    </div>
+                                     
+                                     <div class="form-group row">
+                                        <label class="col-4 col-form-label">Total Employee : </label>
+                                        <div class="col-8">
+                                            <input type="text" class="form-control" name="totalEmployee" type="number" [(ngModel)]="companyobj.totalEmployee"  required/>
+                                            <div *ngIf="myform.controls.totalEmployee.invalid" style="color: red">Required</div>
+                                        </div>
+                                    </div>
+                                     
+                                    
+                                      <div class="form-group row">
+                                        <label class="col-4 col-form-label">Address : </label>
+                                        <div class="col-8">
+                                            <input type="text"  class="form-control"  name="address" [(ngModel)]='companyobj.address' required />
+                                            <div *ngIf="myform.controls.address.invalid" style="color: red">Required</div>
+                                        </div>
+                                    </div>
+                                     
+                                    <div class="form-group row">
+                                        <label class="col-4 col-form-label">IsCompanyActive ? </label>
+                                        <div class="col-8">
+                                            <select class="form-control"  name="isCompanyActive"  [(ngModel)]='companyobj.isCompanyActive' required>
+                                                <option>Yes</option>
+                                                <option>No</option>
+                                            </select>
+                                            <div *ngIf="myform.controls.isCompanyActive.invalid" style="color: red">Required</div>
+                                        </div>
+                                    </div>
+    
+                             
+                                    
+                                    <div *ngFor="let obj of dataArray;let i=index" >
+    
+                                   
+                                    <div class="form-group row">
+                                        <span class="col-md-4">
+                                            <label class="col-12 col-form-label">Branch Id : </label>
+                                            <div class="col-12">
+                                                <input type="text"  class="form-control"   [(ngModel)]='obj.branchId' />
+                                            </div>
+                                        </span>
+                                    
+                                        <span class="col-md-4">
+                                        <label class="col-12 col-form-label">Branch Name : </label>
+                                        <div class="col-12">
+                                            <input type="text"  class="form-control"   [(ngModel)]='obj.branchName' />
+                                        </div>
+                                        </span>
+    
+                                        <span class="col-md-4">
+                                        <label class="col-12 col-form-label">Branch Address : </label>
+                                        <div class="col-12">
+                                            <input type="text"  class="form-control"  [(ngModel)]="obj.branchaddress"  />
+                                        </div>
+                                        </span>
+                                        
+                                       
+                                    </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-12">
+                                              
+                                        <button class="btn btn-success"  (click)="AddMore()" ><i class="fas fa-plus"></i> Add More Branch</button>
+                                              
+                                        </div>
+                                    </div>
+    
+                                     <div class="form-group row">
+                                        <div class="col-12">
+                                              
+                                        <input type="button" class="btn btn-dark btn-lg btn-block" [disabled]='myform.invalid' (click)="AddCompany(myform.value)" value="Add Details">
+                                              
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </form>
+                    
+                        </div>
+                    </div>
+                </div>
+        </main>
+
+        </div>
+    </div>
+
+   
+
+</body>
+
+

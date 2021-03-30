@@ -1,0 +1,79 @@
+<body class="sb-nav-fixed">
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+        <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars" style="margin-left: 10px;"></i></button>
+        <a class="navbar-brand" href="index.html">ANGULAR ASSIGNMENT</a>
+        
+    </nav>
+    <div id="layoutSidenav">
+        <div id="layoutSidenav_nav">
+            <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                <div class="sb-sidenav-menu">
+                    <div class="nav">
+                        <a class="nav-link" href="index">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                            &nbsp; Dashboard
+                        </a>
+                        
+                        <a class="nav-link" href="add">
+                            <div class="sb-nav-link-icon"><i class="fas fa-plus-square"></i></div>&nbsp;
+                             Add Company Details
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div id="layoutSidenav_content">
+            <main>
+                <div class="container-fluid">
+                   
+                    <div class="card mb-4" style="margin-top: 25px;">
+                        <div class="card-header">
+                            <i class="fas fa-table mr-1"></i>
+                            List of Companies
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                    <thead>
+                                        <tr>
+                                                <th>Id</th>
+                                                <th>Email</th>
+                                                <th>Name</th>
+                                                <th>Employees</th>
+                                                <th>Address</th>
+                                                <th>isCompanyActive</th>
+                                                <th>totalBranch</th>
+                                                
+                                                <th>Actions</th>
+                                                
+                                        </tr>
+                                    </thead>
+                                
+                                    <tbody>
+                                            <tr *ngFor='let d of companydata'>
+                                                    <td>{{d.id}}</td>
+                                                    <td>{{d.email}}</td>
+                                                    <td>{{d.name}}</td>
+                                                    <td>{{d.totalEmployee}}</td>
+                                                    <td>{{d.address}}</td>
+                                                    <td>{{d.isCompanyActive}}</td>
+                                                    <td>{{d.totalBranch}}</td>
+                                                   
+                                                    <td><a (click)="editCompany(d)"><i class="fas fa-edit" style="color:green"></i></a> &nbsp;
+                                                    <a (click)="deleteCompany(d)"><i class="fas fa-trash-alt"  style="color:red"></i></a>&nbsp;&nbsp;
+                                                    <a (click)="showDetails(d)"><i class="fas fa-info-circle"  style="color:blue"></i></a></td>
+                                                   
+                                                 </tr>
+                                        
+                                        
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    
+</body>

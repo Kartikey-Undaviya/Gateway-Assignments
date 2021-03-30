@@ -1,0 +1,57 @@
+{
+  "Company": [
+    {
+      "email": "google@gmail.com",
+      "name": "Google",
+      "totalEmployee": "5000",
+      "address": "America",
+      "isCompanyActive": "Yes",
+      "totalBranch": 1,
+      "companyBranch": [
+        {
+          "branchid": "1",
+          "branchname": "Atlanta",
+          "branchaddress": "Street Atlanta, United States."
+        }
+      ],
+      "id": 5
+    },
+    {
+      "email": "abc@gmail.com",
+      "name": "abc",
+      "totalEmployee": "10",
+      "address": "mumbai",
+      "isCompanyActive": "Yes",
+      "totalBranch": 2,
+      "companyBranch": [
+        {
+          "branchid": "1",
+          "branchname": "abc 1",
+          "branchaddress": "mumbai"
+        },
+        {
+          "branchid": "2",
+          "branchname": "abc 2",
+          "branchaddress": "mumbai"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "email": "taj@gmail.com",
+      "name": "Taj",
+      "totalEmployee": "500",
+      "address": "delhi",
+      "isCompanyActive": "Yes",
+      "totalBranch": 1,
+      "companyBranch": [
+        {
+          "branchid": "1",
+          "branchname": "Taj web services",
+          "branchaddress": "mumbai"
+        }
+      ],
+      "id": 7
+    }
+  ]
+}

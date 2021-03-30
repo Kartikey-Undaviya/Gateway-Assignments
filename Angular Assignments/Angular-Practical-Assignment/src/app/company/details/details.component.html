@@ -1,0 +1,105 @@
+<body class="sb-nav-fixed">
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+
+        <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars" style="margin-left: 10px;"></i></button>
+
+        <a class="navbar-brand" href="index.html">ANGULAR ASSIGNMENT</a>
+       
+    </nav>
+    <div id="layoutSidenav">
+        <div id="layoutSidenav_nav">
+            <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                <div class="sb-sidenav-menu">
+                    <div class="nav">
+                        <a class="nav-link" href="index.html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                            Dashboard
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div id="layoutSidenav_content">
+            <main>
+                <div class="container-fluid">
+                    <div class="card mb-4" style="margin-top: 25px;">
+                        <div class="card-header">
+                            <i class="fas fa-info-circle"></i>
+                            Details
+                        </div>
+
+                        <div class="card-body">
+                            <div class="m-3">
+                                <div class="form-group row">
+                                    <label class="col-4 col-form-label">Name : </label>
+                                    <div class="col-8" >
+                                        <p >{{companyobj.name}}</p>
+                                    </div>
+                                </div>
+                                 
+                                 <div class="form-group row">
+                                    <label class="col-4 col-form-label">Email : </label>
+                                    <div class="col-8">
+                                        <p>{{companyobj.email}}</p>
+                                    </div>
+                                </div>
+                                 
+                                 <div class="form-group row">
+                                    <label class="col-4 col-form-label">Total-Employee : </label>
+                                    <div class="col-8">
+                                        <p>{{companyobj.totalEmployee}}</p>
+                                    </div>
+                                </div>
+                                 
+                                
+                                  <div class="form-group row">
+                                    <label class="col-4 col-form-label">Address : </label>
+                                    <div class="col-8">
+                                        <p>{{companyobj.address}}</p>
+                                    </div>
+                                </div>
+                                 
+                                <div class="form-group row">
+                                    <label class="col-4 col-form-label">IsCompanyActive ? : </label>
+                                    <div class="col-8">
+                                        <p>{{companyobj.isCompanyActive}}</p>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label class="col-4 col-form-label">Total-Branch : </label>
+                                    <div class="col-8">
+                                        <p>{{companyobj.totalBranch}}</p>
+                                    </div>
+                                </div>
+                                
+                                <h3 style="text-align: center;color:blue"><u>Branch Info</u></h3>
+                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                    <thead>
+                                    <tr>
+                                        <th>Id</th>
+                                        <th>Name</th>
+                                        <th>Address</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr *ngFor="let o of companyobj.companyBranch">
+                                        <td>{{o.branchid}}</td>
+                                        <td>{{o.branchname}}</td>
+                                        <td>{{o.branchaddress}}</td>
+                                    </tr>
+                                </tbody>
+                                </table>
+
+                            </div>
+                    
+                        </div>
+                    </div>
+                </div>
+        </main>
+
+        </div>
+    </div>
+
+</body>
