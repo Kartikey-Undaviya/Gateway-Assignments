@@ -90,7 +90,6 @@ updateCompany()
 
 showDetails(d:any)
 {
-  //this.service.changeMsg(d);
   setTimeout(() => {
     this.router.navigateByUrl('/details?id='+d.id).then(() => {
       window.location.reload();
