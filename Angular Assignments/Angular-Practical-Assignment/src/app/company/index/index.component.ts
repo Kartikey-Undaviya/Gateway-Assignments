@@ -69,14 +69,6 @@ editCompany(d:any){
       });
       
     }, 1000);
- 
-  
-
-
- 
-  
-  //this.companyobj=d;
-
 
 }
 
